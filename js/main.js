@@ -17,3 +17,20 @@ header.textContent = addPostInput.value;
 var p = document.createElement('p');
 p.className = 'bodyContent';
 p.textContent = addTextArea.value;
+
+//create buttons for div
+var up = document.createElement('button');
+up.className = 'up';
+up.textContent = 'Up';
+
+var down = document.createElement('button');
+down.className = 'down';
+down.textContent = 'Down';
+
+var remove = document.createElement('button');
+remove.className = 'remove';
+remove.textContent = 'Remove';
+
+var showHide = document.createElement('button');
+showHide.className = 'showHide';
+showHide.textContent = 'Hide';
