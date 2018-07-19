@@ -34,3 +34,19 @@ remove.textContent = 'Remove';
 var showHide = document.createElement('button');
 showHide.className = 'showHide';
 showHide.textContent = 'Hide';
+
+//append the header and body of textarea to the body within a div
+postBody.appendChild(header);
+postBody.appendChild(p);
+
+//append all buttons to the buttonDiv
+// buttonDiv.appendChild(up);
+// buttonDiv.appendChild(down);
+buttonDiv.appendChild(remove);
+buttonDiv.appendChild(showHide);
+
+body.appendChild(postBody);
+body.appendChild(buttonDiv)
+
+addPostInput.value = '';
+addTextArea.value = '';
