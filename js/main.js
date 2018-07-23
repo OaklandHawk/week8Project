@@ -18,6 +18,10 @@ var p = document.createElement('p');
 p.className = 'bodyContent';
 p.textContent = addTextArea.value;
 
+//create div for buttons
+var buttonDiv = document.createElement('div');
+buttonDiv.className = 'buttonDiv'
+
 //create buttons for div
 var up = document.createElement('button');
 up.className = 'up';
